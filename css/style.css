@@ -1,0 +1,151 @@
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  background-color: #fcfcfc;
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  color: #555;
+  font-size: 16px;
+  max-width: 1005px;
+  margin: 0 auto;
+}
+article {
+  width: 835px;
+}
+body, h4 {
+  font-weight: 100;
+}
+h4 {
+  font-size: 0.8em;
+  margin-top: 0.5em;
+}
+h3 {
+  font-weight: 500;
+  display: inline-block;
+  padding-top: 1.83em;
+  margin: 0 1.5em 0 0;
+}
+h3:first-of-type {
+  margin-top: -0.83em;
+}
+h2 {
+  font-weight: 500;
+  font-size: 1.2em;
+}
+h1 {
+  font-weight: 500;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 1.8em 0 0.5em 0;
+}
+strong {
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+  color: #999;
+  -webkit-transition: color 0.3s ease;
+     -moz-transition: color 0.3s ease;
+      -ms-transition: color 0.3s ease;
+       -o-transition: color 0.3s ease;
+          transition: color 0.3s ease;
+}
+a:hover {
+  color: #555;
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+  padding: 0.3em 0px;
+  text-transform: lowercase;
+}
+ul .category-content {
+  display: none;
+}
+ul .show {
+  display: block;
+}
+li {
+  padding: 0.3em 0;
+}
+li ul li {
+  padding: 0.1em 0;
+}
+li ul {
+  font-size: 0.9em;
+  padding: 0.5em 0;
+}
+.nav {
+  position: fixed;
+  width: 120px;
+  padding: 0 25px;
+  float: left;
+  display: inline;
+  text-align: right;
+}
+.inner {
+  margin-left: 170px;
+  position: absolute;
+  display: block;
+}
+.button {
+  padding-right: 0.7em;
+  text-transform: lowercase;
+}
+img, video {
+  width: 415px;
+  margin: 0em;
+  padding: 0em;
+  border: 0em;
+}
+.large {
+  width: 100%;
+}
+footer {
+  text-align: center;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 1em;
+}
+#name {
+  padding-top: 1em;
+}
+#name a {
+  color: #555;
+}
+
+@media(max-width: 1020px) {
+  article {
+    width: 70%;
+  }
+  .inner {
+    position: relative;
+    margin: 0 auto;
+  }
+  .nav {
+    text-align: center;
+    position: relative;
+    float: none;
+  }
+  img, video {
+    width: 100%;
+  }
+}
+
+@media(max-width: 800px) {
+  article {
+    width: 80%;
+  }
+}
+
+@media(max-width: 480px) {
+  article {
+    width: 90%;
+  }
+}
+
